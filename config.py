@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+xmGZ8m5VfG1jMDM1")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+_2gTV3qPTB82YjNk")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+eDGuiLMGvO0zNmFl")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+eDGuiLMGvO0zNmFl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -84,21 +84,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/k17l19.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/jrlhtb.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/k17l19.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/jrlhtb.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/k17l19.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/k17l19.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/jrlhtb.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/jrlhtb.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
 
 
 def time_to_seconds(time):
@@ -120,3 +120,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
